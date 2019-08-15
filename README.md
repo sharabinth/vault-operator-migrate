@@ -187,6 +187,10 @@ vagrant@v1:~$ vault operator migrate -config migrate.hcl
 
 Once the data is migrated the new cluster will be shown as initialised but as sealed. Use the unseal key of the existing cluster to unseal the new cluster.
 
+## Check Migrated Data
+
+Check the contents such as secrets, auth backends, policies, tokens, namespaces etc by using either CLI or UI.  For UI, use the IP address of the secondary cluster.
+
 ## Clean Up
 
 Use ```vagrant destroy``` and answer ```Y``` to destroy each VM machine
