@@ -1,0 +1,9 @@
+.vagrant/
+ent/
+tmp/
+*.log
+*.csr
+*.zip
+*.txt
+*.keys
+*.snap
